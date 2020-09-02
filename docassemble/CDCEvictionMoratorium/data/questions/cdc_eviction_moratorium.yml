@@ -86,7 +86,18 @@ subquestion: |
   * This form can only stop you from being evicted for non-
   payment of rent. You can still be evicted for other reasons.
   * You still may owe rent and fees.
-continue button field: form_explanation  
+continue button field: form_explanation
+help:
+  label: |
+    What "other reasons" still allow a landlord to evict me?
+  content: |
+    A landlord can still evict for:
+      1 engaging in criminal activity while on the premises; 
+      2 threatening the health or safety of other residents; 
+      3 damaging or posing an immediate and significant risk of damage to property; 
+      4 violating any applicable building code, health ordinance, or similar regulation relating to health and safety; or 
+      5 violating any other contractual obligation, other than the timely payment of rent or similar housing-related payment (including non-payment or late payment of fees, penalties, or interest). 
+  
 ---
 code: |
   qualifies = qualifies_income and qualifies_best_efforts and qualifies_cant_afford_rent and qualifies_partial_payments and qualifies_likely_homeless
